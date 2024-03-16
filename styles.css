@@ -1,0 +1,76 @@
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    .p-btn{
+        margin-top: -1px;
+        font-size: 0.85em;
+    }
+    footer{
+        font-size: 17px;
+    }
+    .projects-section {
+        padding: 10px 10px; /* Add some padding for spacing */
+        min-height: 500vh; /* Set a minimum height of 100% of the viewport height */
+    }
+    .contact{
+    margin-top: -80px;
+    }
+}
+:root {
+    --color-bg-light: #ffffff;
+    --color-fg-light: #000000;
+    --color-bg-dark: #333333;
+    --color-fg-dark: #ffffff;
+}
+
+[data-theme="light"] {
+    --color-bg: var(--color-bg-light);
+    --color-fg: var(--color-fg-light);
+}
+
+[data-theme="dark"] {
+    --color-bg: var(--color-bg-dark);
+    --color-fg: var(--color-fg-dark);
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+footer {
+    position: fixed; /* Fixes the footer to the bottom of the viewport */
+    bottom: 0; /* Aligns the bottom of the footer to the bottom of the viewport */
+    right: 0; /* Aligns the right of the footer to the right of the viewport */
+    padding: 10px; /* Adds padding inside the footer */
+    background-color: #505050; /* Sets the background color of the footer */
+    color: #fff; /* Sets the text color of the footer */
+    text-align: center; /* Aligns the text to the right inside the footer */
+    width: 100%; /* Sets the width of the footer to 100% */
+    font-size: 1.5em;
+}
+footer span {
+    margin-right: 50px; /* Adds margin between span elements inside the footer */
+}
+.card-body {
+    color: #000; /* Set text color to black for better readability in dark mode */
+}
+.card-img-top{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projects-section {
+    padding: 10px 10px; /* Add some padding for spacing */
+    min-height: 200vh; /* Set a minimum height of 100% of the viewport height */
+}
+.contact {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
