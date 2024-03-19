@@ -9,14 +9,11 @@
     }
     .projects-section {
         padding: 10px 10px; /* Add some padding for spacing */
-        min-height: 500vh; /* Set a minimum height of 100% of the viewport height */
+        min-height: 100%; /* Set a minimum height of 100% of the viewport height */
     }
     .contact{
     margin-top: -80px;
     }
-    .info-section{
-        min-height: 120vh;
-        }
 }
 :root {
     --color-bg-light: #ffffff;
@@ -69,14 +66,11 @@ footer span {
 }
 .projects-section {
     padding: 10px 10px; /* Add some padding for spacing */
-    min-height: 350vh; /* Set a minimum height of 100% of the viewport height */
+    min-height: 250vh; /* Set a minimum height of 100% of the viewport height */
 }
 .contact {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-.info-section{
-   min-height: 119vh;
 }
