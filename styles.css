@@ -66,11 +66,14 @@ footer span {
 }
 .projects-section {
     padding: 10px 10px; /* Add some padding for spacing */
-    min-height: 350vh; /* Set a minimum height of 100% of the viewport height */
+    min-height: 400vh; /* Set a minimum height of 100% of the viewport height */
 }
 .contact {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.info-section{
+    min-height: 250vh;
 }
